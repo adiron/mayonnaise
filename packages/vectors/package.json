@@ -1,0 +1,11 @@
+{
+  "name": "@mayonnaise/vectors",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo Not implmented; exit",
+    "lint": "eslint src -c ../../eslint.config.mjs",
+    "prepublishOnly": "npm run build"
+  }
+}
